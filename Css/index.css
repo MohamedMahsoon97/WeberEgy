@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body
+{
+    perspective: 600;
+}
+.clr{
+    clear: both;
+}
+<!-- End Navbar -->
+
+.navbar .navbar-brand{
+    margin-left: 150px !important;
+    margin-right: 200px !important;
+}
+.navbar .navbar-nav{
+    margin-left: 200px;
+}
+.navbar .navbar-nav li a{
+    color: #1b75bc !important;
+    padding-left: 20px !important;
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: 50px;
+}
+.navbar .navbar-nav li a:hover
+{
+    color: #1b45bc !important;
+    font-weight: 600;
+}
+<!-- End Navbar -->
+.about-content{
+    width: 100%;
+    height: 500px !important;
+    background: white;
+}
+.about-content h2{
+    color: #1b75bc;
+    font-family: "Poppins", sans-serif;
+    margin-top: 50px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.about-content .welcome{
+    width: 50%;
+    float: left;
+    margin-top: 80px;
+    margin-right: 10%;
+}
+.about-content .welcome p{
+    text-align: justify;
+    color: gray;
+    padding-top: 30px;
+    font-size: 17px;
+}
+.about-content .welcome h3{
+    color: #1b75bc;
+    font-size: 21px;
+    font-weight: bold;
+}
+.about-content .welcome a{
+    background: #1b75bc;
+    color: white;
+    font-weight: 600;
+    margin-top: 24px;
+    font-size: 20px;
+}
+.about-content .welcome a:hover{
+    color: #1b75bc;
+    background: white;
+    font-weight: bolder;
+    border: 1px solid #1b75bc;
+}
+.about-content .map{
+    width: 30%;
+    margin-left: 10%;
+    float: right;
+}
+.state{
+    border: 1px solid #1b75bc;
+    width: 100%;
+    height: 240px;
+    background: linear-gradient(75deg, #000851 0%, #1CB5E0 100%) !important;
+}
+.state > div{
+    color: white;
+}
+.state > div i{
+    margin-top: 40px;
+    font-size: 70px;
+}
+.state h4
+{
+    font-size: 22px;
+}
+
+/*------- Start Learning Section  -------*/
+        
+.Learning-Section{
+    background: #f1f1f1 !important;
+    width: 100%;
+    height: 700px !important;
+    margin-top: 0;
+    
+}
+.Learning-Section h2{
+    color: #1b75bc;
+    padding-top: 70px;
+    margin-bottom: 40px;
+}
+.Learning-Section  p{
+    color: gray;
+    margin-bottom: 20px;
+}
+.panel {
+    height: 410px;
+    border-radius: 15px !important;
+    transition: box-shadow 0.5s;
+}
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+    
+}
+
+.panel-heading img{
+    background-color: transparent;
+    width: 100%;
+    height: 100px;
+}
+.panel-footer{
+    background: white;
+}
+.panel-footer h4 {
+    color: #1b75bc;
+    font-size: 20px;
+}
+.panel-footer p {
+    color: gray;
+}
+/*------- End Learning Section -------*/
+
+/*----------  Start Tracks-Section  ---------*/
+.Tracks-Section{
+    position: relative;
+    width: 100%;
+    height: 600px !important;
+}
+.Tracks-Section h2{
+    color: #1b75bc;
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+.Tracks-Section  p{
+    color: gray;
+    margin-bottom: 20px;
+}
+.Tracks-Section .panel{
+    border: none;
+}
+.Tracks-Section .panel:hover{
+    box-shadow: none;
+}
+.panel-footer-up{
+    margin-top: -150px;
+    z-index: 10;
+    background: rgba(0.5,0.5,0.5,0.7);
+}
+.panel-footer-up h4, h5, span{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.Tracks-Section .bundle-card .overlay {
+    background-color: rgba(0, 0, 0, 0.5294117647058824);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+.Tracks-Section .bundle-card:hover .overlay{
+    background-color: rgba(27, 117, 188, 0.5294117647058824);
+}
+.overlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.ct{
+    position: relative;
+}
+.ct:hover .bundle-card {
+    opacity: 0.3;
+    transition: .5s ease-in-out;
+}
+
+.ct:hover .overlay {
+    opacity: 1;
+    transition: .5s ease-in-out;
+}
+
+<!----------  End Tracks-Section  --------->
+#Choice-Courses h2, p{
+    color: #1b75b;
+}
+#sld-img{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    margin-left: 10px;
+}
+.slick-dots {
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding: 0;
+  }
+  .slick-dots li {
+    display: inline-block;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .slick-dots li.slick-active button {
+    background-color: black;
+  }
+  .slick-dots li button {
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+    background-color: #999;
+    border: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-top: 50px;
+  }
+  .slick-dots li :hover {
+    background-color: black;
+  }
+  
+  /* Custom Arrow */
+  .prev {
+    color: #999;
+    position: absolute;
+    top: 38%;
+    left: -2em;
+    font-size: 1.5em;
+  }
+  .prev :hover {
+    cursor: pointer;
+    color: black;
+  }
+  
+  .next {
+    color: #999;
+    position: absolute;
+    top: 38%;
+    right: -2em;
+    font-size: 1.5em;
+  }
+  .next :hover {
+    cursor: pointer;
+    color: black;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .next {
+      display: none !important;
+    }
+  }
+  
+
+<!--- Carousel ----->
+.Teachers-Section h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.carousel-wrap {
+  margin: 90px auto;
+  padding: 0 5%;
+  width: 80%;
+  position: relative;
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+  position: relative;
+  z-index: 100;
+  width;
+  -webkit-backface-visibility: hidden; 
+}
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+  left: -30px;
+}
+
+.owl-nav .owl-next {
+  right: -30px;
+}
+<!--- Carousel ----->
+
+<!--- Carousel Kids----->
+.Students-Section .carousel-wrap .des-team{
+    background: #1b75bc;
+    background: rgba(27, 117, 188, 0.7) !important;
+    margin-top: -100px !important;
+    position: absolute;
+}
+#des-team{
+    background: rgba(27, 117, 188, 0.7);
+    margin-top: -85px;
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+}
+#des-team-2{
+    background: ;
+    background-color: #f6f6f6;
+    margin-top: -85px;
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+    color: black;
+    height: 200px !important;
+}
+.item #des-team-2:hover{
+    background: rgba(27, 117, 188, 0.7) !important;
+    transition: .5s ease-in-out;
+}
+#des-team-2 h3, span{
+    font-size: 18px;
+}
+<!--- Carousel Kids----->
+
+
+.card-tag {
+    position: absolute;
+    background-image: url(../images/star.png);
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    padding-top: 7%;
+    padding-left: 4%;
+    color: white;
+    top: 46%;
+    left: 35%;
+    -webkit-animation: rotation 5s infinite linear;
+}
+
+<!------- Start Partener-------->
+.partener{
+    width: 100%;
+    height: 400px;
+    background: white
+}
+.partener h2{
+    color: #1b75bc;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.partener p{
+    color: gray;
+    margin-bottom: 30px;
+}
+<!------- End Partener-------->
+
+<!------- Start Sponser-------->
+.Sponser{
+    width: 100%;
+    height: 400px !important;
+    background: #f0f0f0 !important;
+}
+.Sponser h2{
+    color: #1b75bc;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+.Sponser p{
+    color: gray;
+    margin-bottom: 30px;
+}
+<!------- End Sponser-------->
+/* slider */
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 60px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-top: 20px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    vertical-align: middle;
+}
+#quote-carousel .carousel-indicators .active {
+    width: 128px;
+    height: 128px;
+    opacity: 1;
+    transition: all .2s;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+/* Feedback */
+
+
+
+/* Feedback */
+<!------  Contact ------->
+
+#contact-form{
+    margin-bottom: 100px;
+}
+.contact con-h2{
+    color: #1b75bc !important;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#contact-form #form input{
+    margin-bottom: 20px;
+    height: 50px;
+    border: 1.5px solid #1b75bc;
+    font-size: 20px;
+    font-weight: 400;
+}
+#contact-form #form textarea{
+    border: 1.5px solid #1b75bc;
+    font-size: 20px;
+    font-weight: 400;
+}
+#contact-form #form button{
+    background: #1b75bc;
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 600;
+}
+#contact-form #form button:hover{
+    background: white;
+    border: 1.4px solid #1b75bc;
+    color: #1b75bc;
+}
+#contact-form #git{
+    margin-top: -20px;
+    
+}
+#contact-form #git text-muted{
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#contact-form #git ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+#contact-form #git ul li span{
+    color: #1b75bc;
+}
+.git-social{
+}
+.git-social a{
+    margin-left: 20px !important;
+    font-size: 17px;
+}
+<!------  Contact ------->
+
+<!------ footer ------>
+.ftr{
+    width: 100%;
+    height: 150px;
+    background: #222222
+}
+.ftr p {
+    float: left;
+    margin-left: 50px;
+    color: white;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.ftr p a{
+    color: #1b75bc;
+}
+.ftr p a:hover{
+    color: #1b95bc;
+    text-decoration-line: none;
+}
+.ftr i{
+    text-align: center;
+    float: right;
+    margin-right: 60px;
+    background: #1b75bc;
+    color: white;
+    font-weight: bolder;
+    margin-top: 10px;
+    font-size: 25px;
+    padding-top: 7px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+<!------ footer ------>
